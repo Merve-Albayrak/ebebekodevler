@@ -8,13 +8,13 @@ public class Main {
 	// write your code here
         Scanner scanner=new Scanner(System.in);
         System.out.print("lütfen boyunuzu giriniz:");
-        float boy=scanner.nextFloat();
+        float height=scanner.nextFloat();
 
         System.out.print("lütfen kilonuzu giriniz:");
-        float kilo=scanner.nextFloat();
-        float indeks=kilo/(boy*boy);
+        float weight=scanner.nextFloat();
+        float index=weight/(height*height);
 
-        System.out.println("Vücut Kitle İndeksiniz:"+indeks);
+        System.out.println("Vücut Kitle İndeksiniz:"+index);
 
 
 
