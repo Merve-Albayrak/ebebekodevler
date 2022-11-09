@@ -1,4 +1,4 @@
-package com.ebebek;
+package com.vucutkitleindeksi;
 
 import java.util.Scanner;
 
